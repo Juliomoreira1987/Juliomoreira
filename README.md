@@ -79,10 +79,10 @@ https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
 🆔 **ORCID:**
 https://orcid.org/0000-0002-3929-024X
 
+🐈‍⬛ **Github:** https://github.com/Juliomoreira1987
+
 💼 **LinkedIn:**
 https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827?utm_source=share_via&utm_content=profile&utm_medium=member_android
-
-🐈‍⬛ **Github:** https://github.com/Juliomoreira1987
 
 ✉️ **E-mail:** moreirajulio@alu.ufc.br
 
