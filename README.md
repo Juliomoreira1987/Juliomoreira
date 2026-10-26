@@ -18,10 +18,14 @@ Atuo há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e e
 Análise de Dados Financeiros e Econômicos
 Modelagem e Gestão do Setor Público
 
-🎓 **Google Scholar:**(https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
-* 📜 **Currículo Lattes:** [Seu Link Aqui](http://lattes.cnpq.br)
-* 🆔 **ORCID:** [Seu Link Aqui](https://orcid.org)
-* 💼 **LinkedIn:** [Seu Link Aqui](https://linkedin.com)
-* ✉️ **E-mail:** [seu.email@exemplo.com](mailto:seu.email@exemplo.com)
+🎓 **Google Scholar:**
+https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
+* 📜 **Currículo Lattes:** http://lattes.cnpq.br/7160204338175212
+* 🆔 **ORCID:**
+https://orcid.org/0000-0002-3929-024X
+* 💼 **LinkedIn:**
+https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827?utm_source=share_via&utm_content=profile&utm_medium=member_android
+* ✉️ **E-mail:**
+moreirajulio1987@gmail.com
 
 > *"A tecnologia e o conhecimento econômico a serviço do desenvolvimento e da inovação."*
