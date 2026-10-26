@@ -4,11 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julio Moreira | Gestor Executivo & Economista</title>
-    <!-- Importação de fontes elegantes do Google Fonts -->
+    <!-- Fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* ESTILOS ESSENCIAIS PARA CORRIGIR OS ERROS */
+        
+        /* 1. Regra para ocultar os outros idiomas */
+        .hidden {
+            display: none !important;
+        }
+
+        /* 2. Estilo dos botões de idioma */
+        .lang-btn {
+            background: none;
+            border: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #666;
+            cursor: pointer;
+            padding: 2px 4px;
+            font-family: inherit;
+        }
+
+        .lang-btn.active {
+            color: #000;
+            font-weight: 700;
+            border: 1px solid #333;
+            border-radius: 3px;
+        }
+
+        /* 3. Estilo e Ocultação do Menu Móvel */
+        .mobile-menu {
+            display: none; /* Mantém o menu escondido por padrão */
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .mobile-menu.active {
+            display: block; /* Exibe o menu quando ativo */
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mobile-menu li {
+            margin: 12px 0;
+        }
+
+        .mobile-menu a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* Estilos básicos de layout */
+        body {
+            margin: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .divider {
+            color: #ccc;
+        }
+
+        .menu-icon {
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            padding: 5px;
+            margin-left: 10px;
+        }
+
+        .menu-icon span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background-color: #000;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .avatar-container {
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .subtitle {
+            color: #2563eb;
+            font-weight: 700;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin: 10px 0 20px 0;
+        }
+
+        .affiliation-list {
+            text-align: left;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #4b5563;
+        }
+
+        .affiliation-list li {
+            margin-bottom: 12px;
+        }
+
+        .bio {
+            text-align: left;
+            line-height: 1.6;
+            color: #374151;
+            margin: 25px 0;
+        }
+
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            padding: 15px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+
+        .metric-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .metric-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #111827;
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: #6b7280;
+            font-weight: 600;
+        }
+
+        .links-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px;
+            background-color: #f3f4f6;
+            color: #1f2937;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #e5e7eb;
+        }
+    </style>
 </head>
 <body>
 
@@ -21,6 +226,7 @@
             <button id="btn-en" class="lang-btn" onclick="switchLanguage('en')">EN</button>
             <span class="divider">|</span>
             <button id="btn-es" class="lang-btn" onclick="switchLanguage('es')">ES</button>
+            
             <!-- Ícone de hambúrguer para o menu móvel -->
             <button class="menu-icon" id="menu-icon" aria-label="Abrir Menu">
                 <span></span>
@@ -30,7 +236,7 @@
         </nav>
     </header>
 
-    <!-- Menu de Navegação Escondido (Drawer/Overlay) -->
+    <!-- Menu de Navegação Escondido -->
     <nav class="mobile-menu" id="mobile-menu">
         <ul>
             <li>
@@ -124,51 +330,4 @@
             </div>
             <div class="metric-item">
                 <span class="metric-number">100+</span>
-                <span class="metric-label lang-pt">PROJETOS</span>
-                <span class="metric-label lang-en hidden">PROJECTS</span>
-                <span class="metric-label lang-es hidden">PROYECTOS</span>
-            </div>
-        </section>
-
-        <!-- Botões de Links (Redes e Currículo) -->
-        <section class="links-grid" id="links">
-            <a href="https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ" target="_blank" class="btn">Google Scholar</a>
-            <a href="http://lattes.cnpq.br/7160204338175212" target="_blank" class="btn">Lattes</a>
-            <a href="https://orcid.org/0000-0002-3929-024X" target="_blank" class="btn">ORCID</a>
-            <a href="https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827" target="_blank" class="btn">LinkedIn</a>
-            <a href="https://github.com/Juliomoreira1987" target="_blank" class="btn">GitHub</a>
-        </section>
-    </main>
-
-    <!-- Script JavaScript para alternar entre os 3 idiomas e controlar o menu -->
-    <script>
-        function switchLanguage(lang) {
-            const languages = ['pt', 'en', 'es'];
-
-            // Oculta todas as linguagens e remove a classe ativa dos botões
-            languages.forEach(l => {
-                document.querySelectorAll(`.lang-${l}`).forEach(el => el.classList.add('hidden'));
-                const btn = document.getElementById(`btn-${l}`);
-                if (btn) btn.classList.remove('active');
-            });
-
-            // Exibe a linguagem selecionada e ativa o botão correspondente
-            document.querySelectorAll(`.lang-${lang}`).forEach(el => el.classList.remove('hidden'));
-            const activeBtn = document.getElementById(`btn-${lang}`);
-            if (activeBtn) activeBtn.classList.add('active');
-
-            // Atualiza a tag do documento HTML
-            document.documentElement.lang = lang;
-        }
-
-        // Função para abrir/fechar o menu móvel
-        const menuIcon = document.getElementById('menu-icon');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        menuIcon.addEventListener('click', () => {
-            mobileMenu.classList.toggle('active');
-            menuIcon.classList.toggle('open');
-        });
-    </script>
-</body>
-</html>
+                <span class="metric-label lang-pt
