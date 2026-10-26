@@ -1,6 +1,6 @@
 Julio Moreira
-
-💼 Gerente Executivo de Varejo | 📊 Economista | 💻 Entusiasta de Ciência e Tecnologia
+Atuo como Gerente Executivo de Varejo | 
+📊 Economista | 💻 Entusiasta de Ciência e Tecnologia
 
 Atuo há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e equipes nos segmentos de varejo, pessoa física, corporativo e habitação. Tenho paixão pela interseção entre Finanças, Análise de Dados, Gestão Pública e Tecnologia.
 
@@ -16,11 +16,8 @@ Atuo há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e e
 📜 Certificações Financeiras:ANBIMA C Pro-R📊 Áreas de Estudo & Projetos:
 Análise de Dados Financeiros e Econômicos
 Modelagem e Gestão do Setor Público
-Desenvolvimento de Software e Automações
 
- 📬 Conecte-se Comigo
-
-🎓 **Google Scholar:** [Seu Link Aqui](https://scholar.google.com)
+🎓 **Google Scholar:**(https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
 * 📜 **Currículo Lattes:** [Seu Link Aqui](http://lattes.cnpq.br)
 * 🆔 **ORCID:** [Seu Link Aqui](https://orcid.org)
 * 💼 **LinkedIn:** [Seu Link Aqui](https://linkedin.com)
