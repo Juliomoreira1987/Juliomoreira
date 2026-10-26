@@ -4,328 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julio Moreira | Gestor Executivo & Economista</title>
-    
-    <!-- Fontes do Google -->
+    <!-- Importação de fontes elegantes do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary-color: #0f172a;
-            --accent-color: #1e3a8a;
-            --text-muted: #64748b;
-            --bg-light: #f8fafc;
-            --border-color: #e2e8f0;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            color: #334155;
-            background-color: #ffffff;
-            line-height: 1.6;
-        }
-
-        /* CONTROLE DE IDIOMAS (Exibe estritamente apenas 1 idioma por vez) */
-        .lang-block {
-            display: none;
-        }
-        
-        .lang-block.active {
-            display: block;
-        }
-
-        .lang-inline {
-            display: none;
-        }
-
-        .lang-inline.active {
-            display: inline;
-        }
-
-        /* CABEÇALHO ELEGANTE */
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 18px 24px;
-            border-bottom: 1px solid var(--border-color);
-            background-color: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(8px);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            letter-spacing: -0.02em;
-        }
-
-        .nav {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        /* SELETOR DE IDIOMA MINIMALISTA */
-        .lang-switch {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            background: var(--bg-light);
-            padding: 4px 8px;
-            border-radius: 20px;
-            border: 1px solid var(--border-color);
-        }
-
-        .lang-btn {
-            background: none;
-            border: none;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            cursor: pointer;
-            padding: 4px 8px;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-            font-family: inherit;
-        }
-
-        .lang-btn.active {
-            color: #ffffff;
-            background-color: var(--primary-color);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        /* ÍCONE DE MENU HAMBÚRGUER SOFISTICADO */
-        .menu-icon {
-            background: none;
-            border: none;
-            cursor: pointer;
-            width: 38px;
-            height: 38px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-            margin-left: 8px;
-            border-radius: 50%;
-            transition: background 0.2s;
-        }
-
-        .menu-icon:hover {
-            background-color: var(--bg-light);
-        }
-
-        .menu-icon span {
-            display: block;
-            width: 18px;
-            height: 2px;
-            background-color: var(--primary-color);
-            border-radius: 2px;
-            transition: transform 0.3s ease, opacity 0.3s ease;
-        }
-
-        /* Animação para transformar o hambúrguer num "X" */
-        .menu-icon.open span:nth-child(1) {
-            transform: translateY(7px) rotate(45deg);
-        }
-        .menu-icon.open span:nth-child(2) {
-            opacity: 0;
-        }
-        .menu-icon.open span:nth-child(3) {
-            transform: translateY(-7px) rotate(-45deg);
-        }
-
-        /* MENU PAINEL FLUTUANTE (DRAWER) */
-        .mobile-menu {
-            position: fixed;
-            top: 75px;
-            left: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.98);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--border-color);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
-            transform: translateY(-150%);
-            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-            z-index: 999;
-            padding: 24px 0;
-        }
-
-        .mobile-menu.active {
-            transform: translateY(0);
-        }
-
-        .mobile-menu ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 18px;
-        }
-
-        .mobile-menu a {
-            text-decoration: none;
-            color: var(--primary-color);
-            font-size: 1.05rem;
-            font-weight: 500;
-            letter-spacing: 0.3px;
-            transition: color 0.2s ease;
-        }
-
-        .mobile-menu a:hover {
-            color: var(--accent-color);
-        }
-
-        /* ESTRUTURA DO CONTEÚDO */
-        .container {
-            max-width: 580px;
-            margin: 0 auto;
-            padding: 32px 20px;
-            text-align: center;
-        }
-
-        .avatar-container {
-            margin: 10px auto 20px auto;
-            width: 130px;
-            height: 130px;
-            position: relative;
-        }
-
-        .avatar {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-            border: 3px solid #ffffff;
-        }
-
-        .subtitle {
-            color: var(--accent-color);
-            font-weight: 700;
-            font-size: 0.75rem;
-            letter-spacing: 1.5px;
-            margin-bottom: 6px;
-            text-transform: uppercase;
-        }
-
-        .name {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            margin-bottom: 24px;
-            color: var(--primary-color);
-            font-weight: 700;
-        }
-
-        .affiliation-list {
-            text-align: left;
-            margin: 24px 0;
-            padding-left: 18px;
-            color: #475569;
-            font-size: 0.95rem;
-        }
-
-        .affiliation-list li {
-            margin-bottom: 10px;
-        }
-
-        .bio {
-            text-align: justify;
-            color: #334155;
-            margin: 28px 0;
-            font-size: 0.98rem;
-            line-height: 1.7;
-        }
-
-        .metrics {
-            display: flex;
-            justify-content: space-around;
-            margin: 32px 0;
-            padding: 20px 0;
-            border-top: 1px solid var(--border-color);
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .metric-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .metric-number {
-            font-size: 1.7rem;
-            font-weight: 800;
-            color: var(--primary-color);
-        }
-
-        .metric-label {
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            margin-top: 2px;
-        }
-
-        .links-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-top: 24px;
-        }
-
-        .btn {
-            display: block;
-            padding: 14px 20px;
-            background-color: var(--bg-light);
-            border: 1px solid var(--border-color);
-            color: var(--primary-color);
-            text-decoration: none;
-            border-radius: 12px;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: all 0.2s ease;
-        }
-
-        .btn:hover {
-            background-color: #ffffff;
-            border-color: var(--accent-color);
-            color: var(--accent-color);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            transform: translateY(-1px);
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- CABEÇALHO -->
+    <!-- Cabeçalho (Menu Superior) -->
     <header class="header">
         <h1 class="logo">Julio Moreira</h1>
-        
         <nav class="nav">
-            <!-- Selector de Idioma -->
-            <div class="lang-switch">
-                <button id="btn-pt" class="lang-btn active" onclick="setLanguage('pt')">PT</button>
-                <button id="btn-en" class="lang-btn" onclick="setLanguage('en')">EN</button>
-                <button id="btn-es" class="lang-btn" onclick="setLanguage('es')">ES</button>
-            </div>
-
-            <!-- Botão Hambúrguer Sofisticado -->
-            <button class="menu-icon" id="menu-icon" aria-label="Menu de Navegação">
+            <a href="#" class="active">PT</a>
+            <span class="divider">|</span>
+            <a href="#">EN</a>
+            <!-- Ícone de hambúrguer para o menu móvel -->
+            <button class="menu-icon">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -333,46 +28,55 @@
         </nav>
     </header>
 
-    <!-- MENU SANDUÍCHE (PAINEL FLUTUANTE) -->
-    <nav class="mobile-menu" id="mobile-menu">
-        <ul>
-            <li>
-                <a href="#formacao" onclick="toggleMenu()">
-                    <span class="lang-inline pt active">Atuação & Formação</span>
-                    <span class="lang-inline en">Experience & Education</span>
-                    <span class="lang-inline es">Trayectoria y Formación</span>
-                </a>
-            </li>
-            <li>
-                <a href="#bio" onclick="toggleMenu()">
-                    <span class="lang-inline pt active">Sobre mim</span>
-                    <span class="lang-inline en">About me</span>
-                    <span class="lang-inline es">Sobre mí</span>
-                </a>
-            </li>
-            <li>
-                <a href="#metrics" onclick="toggleMenu()">
-                    <span class="lang-inline pt active">Indicadores</span>
-                    <span class="lang-inline en">Metrics</span>
-                    <span class="lang-inline es">Indicadores</span>
-                </a>
-            </li>
-            <li>
-                <a href="#links" onclick="toggleMenu()">
-                    <span class="lang-inline pt active">Links Profissionais</span>
-                    <span class="lang-inline en">Professional Links</span>
-                    <span class="lang-inline es">Enlaces Profesionales</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- CONTEÚDO PRINCIPAL -->
     <main class="container">
-        
+        <!-- Foto de Perfil Redonda -->
         <div class="avatar-container">
             <img src="foto-perfil.jpg" alt="Foto de Julio Moreira" class="avatar">
         </div>
 
-        <!-- Subtítulo -->
+        <!-- Subtítulo e Nome Principal -->
+        <p class="subtitle">GESTOR EXECUTIVO &bull; ECONOMISTA</p>
+        <h1 class="name">Julio Moreira</h1>
         
+        <!-- Lista de Atuações/Cargos -->
+        <ul class="affiliation-list">
+            <li>Gerente Executivo de Varejo na Caixa Econômica Federal</li>
+            <li>Mestrando em Economia do Setor Público (UFC)</li>
+            <li>Bacharel em Ciências Econômicas e Administração</li>
+        </ul>
+
+        <!-- Biografia / Resumo Profissional -->
+        <section class="bio">
+            <p>
+                Minha atuação profissional e acadêmica está concentrada na interseção entre gestão bancária, mercado financeiro e desenvolvimento regional. Utilizo ferramentas de análise de dados e teoria econômica aplicada para compreender a dinâmica do setor público e privado, buscar eficiência operacional e promover estratégias de crescimento econômico no Ceará e no Nordeste.
+            </p>
+        </section>
+
+        <!-- Seção de Métricas / Indicadores (Opcional) -->
+        <section class="metrics">
+            <div class="metric-item">
+                <span class="metric-number">3+</span>
+                <span class="metric-label">PUBLICAÇÕES</span>
+            </div>
+            <div class="metric-item">
+                <span class="metric-number">15+</span>
+                <span class="metric-label">ANOS DE EXP.</span>
+            </div>
+            <div class="metric-item">
+                <span class="metric-number">100+</span>
+                <span class="metric-label">PROJETOS</span>
+            </div>
+        </section>
+
+        <!-- Botões de Links (Redes e Currículo) -->
+        <section class="links-grid">
+            <a href="https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ" target="_blank" class="btn">Google Scholar</a>
+            <a href="http://lattes.cnpq.br/7160204338175212" target="_blank" class="btn">Lattes</a>
+            <a href="https://orcid.org/0000-0002-3929-024X" target="_blank" class="btn">ORCID</a>
+            <a href="https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827" target="_blank" class="btn">LinkedIn</a>
+            <a href="https://github.com/Juliomoreira1987" target="_blank" class="btn">GitHub</a>
+        </section>
+    </main>
+
+</body>
+</html>
