@@ -1,5 +1,5 @@
 
-Atua há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e equipes nos segmentos de varejo, pessoa física, corporativo e habitação. Tenho paixão pela interseção entre Finanças, Análise de Dados, Gestão Pública e Tecnologia.
+Atua há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e equipes nos segmentos de varejo, pessoa física e habitação. Tenho paixão pela interseção entre Economia, Finanças, Análise de Dados, Gestão Pública e Tecnologia.
 
 🎓 Formação & Especializações
 
@@ -23,6 +23,7 @@ https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
 📜 **Currículo Lattes:** http://lattes.cnpq.br/7160204338175212
 
 🆔 **ORCID:**
+
 https://orcid.org/0000-0002-3929-024X
 
 💼 **LinkedIn:**
