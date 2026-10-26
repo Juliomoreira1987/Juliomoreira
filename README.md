@@ -50,12 +50,10 @@ Julio Moreira de Souza
 
 ​🌐 Redes & Produção Acadêmica
 
-​🎓 Google Scholar: Perfil Acadêmico
-
-​📜 Currículo Lattes: Acessar Lattes
-
-​🆔 ORCID: 0000-0002-3929-024X
-
-​💼 LinkedIn: In/julio-moreira-de-souza
-
+🐈‍⬛ https://juliomoreira1987.github.io/
+🆔 https://orcid.org/0000-0002-3929-024X
+📜 http://lattes.cnpq.br/7160204338175212
+🎓 https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
+💼 in/julio-moreira-de-souza-a9b24827
+⚛️https://www.webofscience.com/wos/author/record/RIV-5066-2026
 ​✉️ E-mail: moreirajulio@alu.ufc.br
