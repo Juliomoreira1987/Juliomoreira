@@ -1,89 +1,57 @@
+Julio Moreira de Souza
 
-Atua há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e equipes nos segmentos de varejo, pessoa física e habitação. Tenho paixão pela interseção entre Economia, Finanças, Análise de Dados, Gestão Pública e Tecnologia.
+​“A tecnologia e o conhecimento econômico a serviço do desenvolvimento e da inovação.”
 
-**Formação Acadêmica & Qualificações**
+​Profissional com trajetória consolidada na interface entre Economia do Setor Público, Gestão Executiva, Finanças e Ciência de Dados. Atuação estratégica orientada para governança, análise de eficiência do gasto público, controladoria e inteligência de dados aplicada à tomada de decisão.
 
-**Pós-Graduação Stricto Sensu (Mestrado)**
+​🏛️ Áreas de Atuação & Interesses
 
-**Mestrado Profissional em Economia do Setor Público— Universidade Federal do Ceará (UFC) (2025 – 2027)**
+​Economia do Setor Público & Governança: Análise de políticas públicas, finanças públicas e eficiência regulatória.
+​Gestão Executiva & Finanças: Controladoria, auditoria bancária, mercado de capitais e gestão de investimentos.
+​Ciência de Dados & Tecnologia: Big Data Analytics, tecnologias da informação (TIC) e métodos quantitativos aplicados à economia.
 
-**Graduação**
+​🎓 Formação Acadêmica & Qualificações
 
-**Bacharelado em Ciências Econômicas** — Universidade Regional do Cariri (URCA) (2020 – 2024)
+​🔬 Pós-Graduação Stricto Sensu
 
-**Bacharelado em Administração** — Universidade Católica de Brasília (UCB) (concluído em 2025)
+​Mestrado Profissional em Economia do Setor Público — Universidade Federal do Ceará (UFC) (2025 – 2027)
 
-**Tecnologia em Comércio Exterior** — Faculdade Lourenço Filho (FLF) (2016 – 2018)
+​📜 Pós-Graduação Lato Sensu 
 
-**Bacharelado em Ciência e Tecnologia** — Universidade Federal de Mato Grosso (UFMT) (em andamento)
+(Especializações & MBAs)
+​MBA em Controladoria e Finanças — Universidade São Francisco (USF) (2026 – 2028)
+​MBA em Economia e Negócios — Universidade Federal de Mato Grosso do Sul (UFMS) (2026 – 2027)
+​Especialização em Ciência de Dados e Big Data Analytics — IESB (2026 – 2027)
+​Especialização em Gestão Pública — UNILAB (2026 – 2027)
+​MBA em Auditoria Bancária — USCS (2026 – 2027)
+​Especializações em Economia Brasileira Contemporânea | Mercado Financeiro | Economia: Mercados e Políticas — Faculdade Metropolitana (2026 – 2027)
+​MBA em Economia, Investimentos e Banking — MBA USP / Esalq (2024 – 2026)
+​Especialização em Gestão Financeira e Consultoria Empresarial — URCA (2024 – 2026)
+​Especialização em Gestão Financeira — UFCA (2023 – 2025)
+​MBA em Gestão de Investimentos — PUC Goiás (2023 – 2024)
+​MBA em Economia e Finanças — UVV (2023 – 2024)
+​Especialização em Finanças Corporativas — UNINTA (2023 – 2024)
+​MBA Executivo em Economia e Gestão do Agronegócio — Unyleya (2022 – 2023)
+​MBA em Liderança: Gestão, Resultados e Engajamento — UNESC (2022)
+​Especializações em Ciências Humanas / Matemática Aplicada ao Trabalho — UFPI (2022)
+​Especialização em Finanças Aplicadas, Computação e TIC — PUC Minas (2019 – 2021)
+​MBA em Controles Internos e Auditoria Bancária — Unyleya (2019 – 2020)
+​MBA em Liderança, Inovação e Gestão 3.0 — PUCRS (2018 – 2019)
 
-**Pós-Graduações Lato Sensu & MBAs**
+​🎓 Graduação
 
-**Finanças, Mercado de Capitais & Banking**
+​Bacharelado em Administração — Universidade Católica de Brasília (UCB)
+​Bacharelado em Ciências Econômicas — Universidade Regional do Cariri (URCA)
+​Bacharelado em Ciência e Tecnologia — Universidade Federal de Mato Grosso (UFMT)
+​CST em Comércio Exterior — Faculdade Lourenço Filho (FLF)
 
-**MBA em Economia, Investimentos e Banking** — MBA USP/Esalq *(2024 – 2026)
+​🛡️ Certificações Profissionais
+​ANBIMA C Pro-R
 
-**Especialização em Finanças Aplicadas** — PUC Minas (2019 – 2021)
+​🌐 Redes & Produção Acadêmica
 
-**Especialização em Mercado Financeiro e Investimentos** — Faculdade Metropolitana (2026 – 2027)
-
-**MBA em Gestão de Investimentos** — PUC Goiás (2023 – 2024)
-
-**Especialização em Finanças Corporativas** — UNINTA (2023 – 2024)
-
-**MBA em Economia e Finanças** — Universidade Vila Velha (UVV) (2023)
-
-**Controladoria, Auditoria & Gestão Financeira**
-
-**MBA em Controladoria e Finanças** — Universidade São Francisco (USF) (2026 – 2028
-
-**MBA em Auditoria Bancária** — Universidade Municipal de São Caetano do Sul (USCS) (2026)
-
-**MBA em Controles Internos e Auditoria Bancária** — Unyleya *(2019 – 2020)
-
-**Especialização em Gestão Financeira e Consultoria Empresarial** — URCA (2024 – 2026)
-
-**Especialização em Gestão Financeira** — Universidade Federal do Cariri (UFCA) (2023 – 2025)
-
-**Curso de Aperfeiçoamento em Auditoria e Controle Interno** — Universidade Estadual do Ceará (UECE) (2024 – 2025)
-
-**Economia, Negócios & Agronegócio**
-
-**MBA em Economia e Negócios** — Universidade Federal de Mato Grosso do Sul (UFMS) (2026 – 2027)
-
-**Especialização em Economia: Mercados e Políticas** — Faculdade Metropolitana (2026 – 2027)
-
-**Especialização em Economia Brasileira Contemporânea** — Faculdade Metropolitana (2026 – 2027)
-
-**MBA Executivo em Economia e Gestão do Agronegócio** — Unyleya (2022 – 2023)
-
-**Tecnologia, Gestão Pública & Liderança**
-
-**Especialização em Ciência de Dados e Big Data Analytics** — IESB (2026 – 2027)
-
-**Especialização em Gestão Pública** — UNILAB (2026 – 2027)
-
-**MBA em Liderança, Inovação e Gestão 3.0** — PUCRS (2018 – 2019)
-
-**MBA em Liderança: Gestão, Resultados e Engajamento** — UNESC (2022)
-
-**Especializações em Ciências Humanas / Matemática Aplicada ao Trabalho** — UFPI (2022)
-
-📜 Certificação Financeiras:ANBIMA C Pro-R
-
-🎓 **Google Scholar:**
-https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ
-
-📜 **Currículo Lattes:** http://lattes.cnpq.br/7160204338175212
-
-🆔 **ORCID:**
-https://orcid.org/0000-0002-3929-024X
-
-🐈‍⬛ **Github:** https://github.com/Juliomoreira1987
-
-💼 **LinkedIn:**
-https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827?utm_source=share_via&utm_content=profile&utm_medium=member_android
-
-✉️ **E-mail:** moreirajulio@alu.ufc.br
-
-> *"A tecnologia e o conhecimento econômico a serviço do desenvolvimento e da inovação."*
+​🎓 Google Scholar: Perfil Acadêmico
+​📜 Currículo Lattes: Acessar Lattes
+​🆔 ORCID: 0000-0002-3929-024X
+​💼 LinkedIn: In/julio-moreira-de-souza
+​✉️ E-mail: moreirajulio@alu.ufc.br
