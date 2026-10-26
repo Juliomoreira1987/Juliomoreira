@@ -1,0 +1,235 @@
+/* Reset básico para que o site fique igual em qualquer navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1e293b;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 60px 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Cabeçalho de Navegação */
+.header {
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav a.active {
+    color: #0f172a;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 2px;
+}
+
+.divider {
+    color: #cbd5e1;
+    font-size: 0.8rem;
+}
+
+/* Menu de Hambúrguer (Icone de 3 risquinhos) */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.menu-icon span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #0f172a;
+    border-radius: 2px;
+}
+
+/* Área Principal */
+.container {
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Foto Redonda do Perfil com borda suave */
+.avatar-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    border: 4px solid #ffffff;
+    outline: 1px solid #e2e8f0;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Texto de Categoria */
+.subtitle {
+    color: #2563eb;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Nome */
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 24px;
+}
+
+/* Lista de Vínculos com pontos azuis */
+.affiliation-list {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+
+.affiliation-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 14px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #475569;
+}
+
+.affiliation-list li::before {
+    content: "•";
+    color: #2563eb;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+/* Biografia */
+.bio {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #334155;
+    margin-bottom: 40px;
+    text-align: justify;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 30px;
+}
+
+/* Métricas Científicas/Acadêmicas */
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    border-top: 1px solid #f1f5f9;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.metric-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metric-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.metric-label {
+    font-size: 0.65rem;
+    color: #64748b;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+/* Grid de Botões de Links */
+.links-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0f172a;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.08);
+}
+
+.btn:hover {
+    background-color: #1e293b;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(15, 23, 42, 0.12);
+}
+
+/* Ajustes Responsivos para Tela de Celular */
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.8rem;
+    }
+    .header {
+        padding: 20px 0;
+        margin-bottom: 30px;
+    }
+    .avatar-container {
+        width: 170px;
+        height: 170px;
+    }
+}
