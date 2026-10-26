@@ -25,6 +25,7 @@ https://orcid.org/0000-0002-3929-024X
 * 💼 **LinkedIn:**
 https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827?utm_source=share_via&utm_content=profile&utm_medium=member_android
 * ✉️ **E-mail:**
+  
 moreirajulio@alu.ufc.br
 
 > *"A tecnologia e o conhecimento econômico a serviço do desenvolvimento e da inovação."*
