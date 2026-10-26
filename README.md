@@ -1,4 +1,4 @@
-# Olá, eu sou o Julio Moreira 👋
+Julio Moreira
 
 💼 Gerente Executivo de Varejo | 📊 Economista | 💻 Entusiasta de Ciência e Tecnologia
 
