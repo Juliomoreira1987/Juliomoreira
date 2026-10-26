@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -17,17 +16,41 @@
     <header class="header">
         <h1 class="logo">Julio Moreira</h1>
         <nav class="nav">
-            <a href="#" class="active">PT</a>
+            <button id="btn-pt" class="lang-btn active" onclick="switchLanguage('pt')">PT</button>
             <span class="divider">|</span>
-            <a href="#">EN</a>
+            <button id="btn-en" class="lang-btn" onclick="switchLanguage('en')">EN</button>
             <!-- Ícone de hambúrguer para o menu móvel -->
-            <button class="menu-icon">
+            <button class="menu-icon" id="menu-icon" aria-label="Abrir Menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
         </nav>
     </header>
+
+    <!-- Menu de Navegação Escondido (Drawer/Overlay) -->
+    <nav class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li>
+                <a href="#bio">
+                    <span class="lang-pt">Sobre</span>
+                    <span class="lang-en hidden">About</span>
+                </a>
+            </li>
+            <li>
+                <a href="#metrics">
+                    <span class="lang-pt">Indicadores</span>
+                    <span class="lang-en hidden">Metrics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#links">
+                    <span class="lang-pt">Links Profissionais</span>
+                    <span class="lang-en hidden">Professional Links</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 
     <main class="container">
         <!-- Foto de Perfil Redonda -->
@@ -36,50 +59,19 @@
         </div>
 
         <!-- Subtítulo e Nome Principal -->
-        <p class="subtitle">GESTOR EXECUTIVO &bull; ECONOMISTA</p>
+        <p class="subtitle">
+            <span class="lang-pt">GESTOR EXECUTIVO &bull; ECONOMISTA</span>
+            <span class="lang-en hidden">EXECUTIVE MANAGER &bull; ECONOMIST</span>
+        </p>
         <h1 class="name">Julio Moreira</h1>
         
         <!-- Lista de Atuações/Cargos -->
         <ul class="affiliation-list">
-            <li>Gerente Executivo de Varejo na Caixa Econômica Federal</li>
-            <li>Mestrando em Economia do Setor Público (UFC)</li>
-            <li>Bacharel em Ciências Econômicas (URCA)
-            <li>Bacharel em Administração (UCB)
-        </ul>
-
-        <!-- Biografia / Resumo Profissional -->
-        <section class="bio">
-            <p>
-             Minha atuação profissional e acadêmica está centrada na interface entre Economia do Setor Público, Finanças, Gestão Bancária e Ciência de Dados. Atuo estrategicamente com foco em governança, análise de eficiência do gasto público, controladoria e inteligência de dados para suporte à tomada de decisão.
-            </p>
-        </section>
-
-        <!-- Seção de Métricas / Indicadores (Opcional) -->
-        <section class="metrics">
-            <div class="metric-item">
-                <span class="metric-number">3+</span>
-                <span class="metric-label">PUBLICAÇÕES</span>
-            </div>
-            <div class="metric-item">
-                <span class="metric-number">15+</span>
-                <span class="metric-label">ANOS DE EXP.</span>
-            </div>
-            <div class="metric-item">
-                <span class="metric-number">100+</span>
-                <span class="metric-label">PROJETOS</span>
-            </div>
-        </section>
-
-        <!-- Botões de Links (Redes e Currículo) -->
-        <section class="links-grid">
-            <a href="https://scholar.google.com/citations?hl=pt-BR&user=WHE350QAAAAJ" target="_blank" class="btn">Google Scholar</a>
-            <a href="http://lattes.cnpq.br/7160204338175212" target="_blank" class="btn">Lattes</a>
-            <a href="https://orcid.org/0000-0002-3929-024X" target="_blank" class="btn">ORCID</a>
-            <a href="https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827" target="_blank" class="btn">LinkedIn</a>
-            <a href="https://github.com/Juliomoreira1987" target="_blank" class="btn">GitHub</a>
-        </section>
-    </main>
-
-</body>
-</html>
-
+            <li>
+                <span class="lang-pt">Gerente Executivo de Varejo na Caixa Econômica Federal</span>
+                <span class="lang-en hidden">Retail Executive Manager at Caixa Econômica Federal</span>
+            </li>
+            <li>
+                <span class="lang-pt">Mestrando em Economia do Setor Público (UFC)</span>
+                <span class="lang-en hidden">Master's Student in Public Sector Economics (UFC)</span>
+            
