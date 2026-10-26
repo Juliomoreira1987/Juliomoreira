@@ -1,6 +1,5 @@
-Julio Moreira
 
-Atuo há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e equipes nos segmentos de varejo, pessoa física, corporativo e habitação. Tenho paixão pela interseção entre Finanças, Análise de Dados, Gestão Pública e Tecnologia.
+Atua há mais de 15 anos na Caixa Econômica Federal, liderando estratégias e equipes nos segmentos de varejo, pessoa física, corporativo e habitação. Tenho paixão pela interseção entre Finanças, Análise de Dados, Gestão Pública e Tecnologia.
 
 🎓 Formação & Especializações
 
@@ -26,6 +25,6 @@ https://orcid.org/0000-0002-3929-024X
 * 💼 **LinkedIn:**
 https://www.linkedin.com/in/julio-moreira-de-souza-a9b24827?utm_source=share_via&utm_content=profile&utm_medium=member_android
 * ✉️ **E-mail:**
-moreirajulio1987@gmail.com
+moreirajulio@alu.ufc.br
 
 > *"A tecnologia e o conhecimento econômico a serviço do desenvolvimento e da inovação."*
