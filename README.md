@@ -19,6 +19,7 @@ Julio Moreira de Souza
 ​📜 Pós-Graduação Lato Sensu 
 
 (Especializações & MBAs)
+
 ​MBA em Controladoria e Finanças — Universidade São Francisco (USF) (2026 – 2028)
 ​MBA em Economia e Negócios — Universidade Federal de Mato Grosso do Sul (UFMS) (2026 – 2027)
 ​Especialização em Ciência de Dados e Big Data Analytics — IESB (2026 – 2027)
